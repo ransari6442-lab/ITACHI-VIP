@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>𝐈𝐓𝐀𝐂𝐇𝐈 𝐈𝐍𝐉𝐄𝐂𝐓𝐎𝐑 </title>
+<title>𝐈𝐓𝐀𝐂𝐇𝐈 𝐈𝐍𝐉𝐄𝐂𝐓𝐎𝐑</title>
 
-<!-- ✅ META PIXEL CODE (HEAD ME) -->
+<!-- ✅ NEW META PIXEL -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -16,13 +16,13 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init', '2294816147708547');
+fbq('init', '1305742328099291');
 fbq('track', 'PageView');
 </script>
 
 <noscript>
 <img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2294816147708547&ev=PageView&noscript=1"/>
+src="https://www.facebook.com/tr?id=1305742328099291&ev=PageView&noscript=1"/>
 </noscript>
 
 <style>
@@ -88,7 +88,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* GOLD BUTTON */
+/* BUTTON */
 .btn {
   display: block;
   padding: 16px;
@@ -109,30 +109,7 @@ h1 {
     0 6px 15px rgba(255, 215, 0, 0.5),
     inset 0 2px 5px rgba(255,255,255,0.6),
     inset 0 -3px 5px rgba(0,0,0,0.3);
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-/* SHINE */
-.btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,255,255,0.7),
-    transparent
-  );
-  transition: 0.6s;
-}
-
-.btn:hover::before {
-  left: 100%;
+  transition: 0.3s;
 }
 
 .btn:hover {
@@ -156,25 +133,22 @@ h1 {
 
 <div class="card">
   
-  <!-- IMAGE -->
+  <!-- ✅ NEW IMAGE -->
   <div class="profile">
-    <img src="https://i.ibb.co/Q30PMR84/lo.webp" alt="profile">
+    <img src="https://i.ibb.co/G46VTL7k/jjjj.jpg" alt="profile">
   </div>
 
-  <!-- NAME -->
   <h1>YADUVEER 🔥</h1>
 
-  <!-- TEXT -->
   <div class="sub">
     Join the original channel for daily updates
   </div>
 
-  <!-- BUTTON -->
-  <a href="#" class="btn" onclick="openTelegram()">
+  <!-- ✅ TELEGRAM BUTTON -->
+  <a href="https://t.me/+bTishliCb7M4NWFl" class="btn" onclick="trackLead()">
     🚀 Join Telegram Now
   </a>
 
-  <!-- FOOTER -->
   <div class="footer">
     ⭐ Trusted by 50,000+ members<br>
     100% FREE | NO SPAM | INSTANT UPDATES
@@ -182,22 +156,11 @@ h1 {
 
 </div>
 
-<!-- TELEGRAM SCRIPT -->
 <script>
-function openTelegram() {
-  var appLink = "tg://join?invite=bTishliCb7M4NWFl";
-  var webLink = "https://t.me/+bTishliCb7M4NWFl";
-
-  // Track button click (Meta Pixel)
+function trackLead() {
   if (typeof fbq !== "undefined") {
     fbq('track', 'Lead');
   }
-
-  window.location.href = appLink;
-
-  setTimeout(function () {
-    window.location.href = webLink;
-  }, 1000);
 }
 </script>
 
